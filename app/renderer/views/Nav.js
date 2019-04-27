@@ -29,7 +29,7 @@ const IconNavItem = ({icon: Icon, ...props}) => {
 };
 
 IconNavItem.propTypes = {
-	icon: PropTypes.elementType.isRequired,
+	icon: PropTypes.func.isRequired,
 	to: PropTypes.string.isRequired,
 };
 

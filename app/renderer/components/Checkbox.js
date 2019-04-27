@@ -6,7 +6,7 @@ import './Checkbox.scss';
 class Checkbox extends React.Component {
 	static propTypes = {
 		forwardedRef: PropTypes.oneOfType([
-			PropTypes.elementType,
+			PropTypes.func,
 			PropTypes.object,
 		]),
 		label: PropTypes.string.isRequired,

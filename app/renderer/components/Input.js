@@ -22,7 +22,7 @@ const isExponentialNotation = value => /(\d+\.?\d*)e\d*(\+|-)(\d+)/.test(value);
 class Input extends React.Component {
 	static propTypes = {
 		forwardedRef: PropTypes.oneOfType([
-			PropTypes.elementType,
+			PropTypes.func,
 			PropTypes.object,
 		]),
 		className: PropTypes.string,

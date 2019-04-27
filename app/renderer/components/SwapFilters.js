@@ -157,7 +157,7 @@ class SwapFilters extends React.Component {
 }
 
 SwapFilters.propTypes = {
-	children: PropTypes.elementType,
+	children: PropTypes.func,
 	swaps: PropTypes.arrayOf(PropTypes.object),
 };
 

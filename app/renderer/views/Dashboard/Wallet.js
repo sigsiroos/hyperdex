@@ -15,7 +15,7 @@ const TabView = ({component, activeView}) => (
 );
 
 TabView.propTypes = {
-	component: PropTypes.elementType.isRequired,
+	component: PropTypes.func.isRequired,
 	activeView: PropTypes.string.isRequired,
 };
 

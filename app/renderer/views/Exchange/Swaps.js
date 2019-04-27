@@ -19,7 +19,7 @@ const TabView = ({component}) => (
 );
 
 TabView.propTypes = {
-	component: PropTypes.elementType.isRequired,
+	component: PropTypes.func.isRequired,
 };
 
 const OpenOrders = () => {
