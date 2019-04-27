@@ -27,7 +27,7 @@ WrappedInput.defaultProps = {
 class DateInput extends React.Component {
 	static propTypes = {
 		forwardedRef: PropTypes.oneOfType([
-			PropTypes.func,
+			PropTypes.elementType,
 			PropTypes.object,
 		]),
 		autoCorrect: PropTypes.bool,
